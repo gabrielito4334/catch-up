@@ -7,6 +7,7 @@ import 'primeicons/primeicons.css'
 import 'primeflex/primeflex.css'
 import {Avatar, Button, Card, Drawer, Menu, Menubar, SelectButton, Toolbar, Tooltip} from "primevue";
 createApp(App)
+    .use(i18n)
     .use(PrimeVue, {ripple: true, theme: {preset:Material}})
     .component('pv-button', Button)
     .component('pv-select-button', SelectButton)
